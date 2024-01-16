@@ -1,4 +1,5 @@
 import {
+  CDGOLogo,
   LumappsLogo
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
@@ -59,6 +60,16 @@ export const RESUME_DATA = {
     "Python",
   ],
   projects: [
-    
+    {
+      title: "Sudoku Auto solver",
+      techStack: ["Python"],
+      description:
+        "A sudoku solver using computer vision and linear programming",
+      logo: CDGOLogo,
+      link: {
+        label: "Github",
+        href: "https://github.com/hyliss34/Sudoku_solver/tree/master/sudoku_solver/",
+      },
+    },
   ],
 } as const;
